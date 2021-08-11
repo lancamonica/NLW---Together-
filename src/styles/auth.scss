@@ -14,6 +14,13 @@
   }
 }
 
+.img-left {
+  display: block;
+  @media (max-width: 1060px) {
+    display: none;
+  }
+}
+
 aside {
   flex: 7;
 
@@ -23,6 +30,7 @@ aside {
   justify-content: center;
   padding: 120px 88px;
   flex-direction: column;
+  height: 100vh;
 
   img {
     max-width: 320px;
@@ -51,6 +59,7 @@ aside {
   max-width: 320px;
   align-items: stretch;
   text-align: center;
+  margin: 0 auto;
 
   > img {
     align-self: center;
@@ -58,7 +67,7 @@ aside {
 
   h2 {
     font-size: 24px;
-    margin: 64px 8px 24px;
+    margin: 45px 8px 24px;
     font-family: 'Poppins', sans-serif;
   }
 
@@ -104,6 +113,7 @@ aside {
     cursor: pointer;
     border: 0;
     transition: filter 0.2s;
+    padding: 5px;
 
     img {
       margin-right: 8px;

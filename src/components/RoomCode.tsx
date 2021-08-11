@@ -4,9 +4,9 @@ import copyImg from '../assets/images/copy.svg';
 import '../styles/room-code.scss';
 
 export function RoomCode() {
-  function copyRoomCodeToClipboard() {
+  /* function copyRoomCodeToClipboard() {
     navigator.clipboard.writeText('-MdIK6AHxfgv8m1eLZ16')
-  }
+  } */
 
   return (
     <button className="room-code">
