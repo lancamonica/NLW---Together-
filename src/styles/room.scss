@@ -19,6 +19,7 @@
   main {
     max-width: 800px;
     margin: 0 auto;
+    padding: 8px;
 
     .room-title {
       margin: 32px 0px 24px;
@@ -60,7 +61,25 @@
         align-items: center;
         margin-top: 16px;
 
-        span {
+        .user-info {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+          }
+
+          span {
+            margin-left: 8px;
+            font-size: 14px;
+            color: #292923;
+            font-weight: 500;
+          }
+        }
+
+        > span {
           font-size: 14px;
           color: #737380;
           font-weight: 500;

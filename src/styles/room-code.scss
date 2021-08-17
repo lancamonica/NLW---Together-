@@ -6,6 +6,8 @@
   border: 1px solid #835afd;
   cursor: pointer;
   display: flex;
+  float: right;
+  width: 100%;
 
   div {
     background: #835afd;
@@ -14,13 +16,14 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    width: 16%;
   }
 
   span {
     display: block;
     align-self: center;
     flex: 1;
-    padding: 0 16px 0 12px;
+    padding: 2px;
     width: 230px;
     font-size: 14px;
     font-weight: 500;
