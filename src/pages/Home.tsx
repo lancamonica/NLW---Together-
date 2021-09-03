@@ -8,9 +8,9 @@ import googleIconImg from '../assets/images/google-icon.svg';
 import { Button } from '../components/Button';
 import { useAuth } from '../hooks/useAuth';
 import { database } from '../service/firebase';
+import GridItem from '../components/GridItem';
 //styled
 import '../styles/auth.scss';
-import GridItem from '../components/GridItem';
 
 export function Home() {
   const history = useHistory();

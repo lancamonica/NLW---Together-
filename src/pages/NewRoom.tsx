@@ -7,9 +7,9 @@ import logoImg from '../assets/images/logo.svg';
 import { Button } from '../components/Button';
 import { database } from '../service/firebase';
 import { useAuth } from '../hooks/useAuth';
+import GridItem from '../components/GridItem';
 //styled
 import '../styles/auth.scss';
-import GridItem from '../components/GridItem';
 
 export function NewRoom() {
   const { user } = useAuth();

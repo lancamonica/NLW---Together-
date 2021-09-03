@@ -1,4 +1,6 @@
+//external
 import { useEffect, useState } from "react";
+//internal
 import { database } from "../service/firebase";
 import { useAuth } from "./useAuth";
 

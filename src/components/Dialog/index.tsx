@@ -21,9 +21,9 @@ export default function AlertDialog(props: props) {
 
   return (
     <div>
-      <Button color="primary" onClick={handleClickOpen}>
+      <button color="primary" onClick={handleClickOpen}>
         {props.buttonChildren}
-      </Button>
+      </button>
       <Dialog
         open={open}
         onClose={handleClose}
